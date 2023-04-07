@@ -2,8 +2,8 @@ FROM python:3.8-slim-buster
 
 WORKDIR /app
 
-COPY . /app
-RUN pip install -r requirements.txt
+COPY requirements.txt /app
+COPY devops /app
 RUN cd devops
 
 ENTRYPOINT ["python3"]
