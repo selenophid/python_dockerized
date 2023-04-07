@@ -1,7 +1,7 @@
 FROM python:3.8-slim-buster
 
 WORKDIR /app
-
+dddwwddwdwd
 COPY requirements.txt /app
 COPY devops /app
 RUN cd devops
